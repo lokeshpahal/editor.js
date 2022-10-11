@@ -292,7 +292,7 @@ export default class UI extends Module<UINodes> {
     /**
      * If Editor has injected into the narrow container, enable Narrow Mode
      */
-    if (this.nodes.holder.offsetWidth < this.contentRect.width) {
+    if (this.config.narrowMode !== false && this.nodes.holder.offsetWidth < this.contentRect.width) {
       this.nodes.wrapper.classList.add(this.CSS.editorWrapperNarrow);
     }
 

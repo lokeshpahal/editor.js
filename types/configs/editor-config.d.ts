@@ -16,6 +16,11 @@ export interface EditorConfig {
   holder?: string | HTMLElement;
 
   /**
+   * Editor narrow mode?
+   */
+  narrowMode?: boolean;
+
+  /**
    * If true, set caret at the first Block after Editor is ready
    */
   autofocus?: boolean;

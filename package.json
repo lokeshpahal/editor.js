@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/editorjs",
+  "name": "@lokeshpahal/editorjs",
   "version": "2.25.0",
   "description": "Editor.js — Native JS, based on API and Open Source",
   "main": "dist/editor.js",
